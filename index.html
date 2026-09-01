@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mehedi Hasan Shanto | CSE Student & Aspiring Software Engineer Portfolio. Explore my skills, projects, and academic background.">
+    <meta name="keywords" content="Mehedi Hasan Shanto, CSE, Portfolio, Software Engineer, Web Developer, HTML, CSS, C++, Java, Python, UAP">
+    <meta name="author" content="Mehedi Hasan Shanto">
+    <meta name="theme-color" content="#040711">
+
+    <title>Mehedi Hasan Shanto | CSE Student & Aspiring Software Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome 6 (CDN for UI & Social Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Devicon (CDN for Programming Language & Tech Logos) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- Pure CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">
+                    <span class="logo-bracket">&lt;</span>Shanto<span class="logo-bracket">/&gt;</span>
+                </a>
+            </div>
+
+            <!-- Pure CSS Hamburger Menu Toggle (No JS required) -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-toggle-btn" aria-label="Toggle navigation menu">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fa-solid fa-house-chimney nav-icon"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user nav-icon"></i> About</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-code nav-icon"></i> Skills</a></li>
+                <li><a href="#education"><i class="fa-solid fa-graduation-cap nav-icon"></i> Education</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-folder-open nav-icon"></i> Projects</a></li>
+                <li><a href="#contact" class="nav-cta-link"><i class="fa-solid fa-paper-plane nav-icon"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero">
+        <!-- Ambient background glows -->
+        <div class="glow-orb glow-top-left"></div>
+        <div class="glow-orb glow-bottom-right"></div>
+
+        <div class="hero-content">
+            <div class="status-pill">
+                <span class="status-pulse"></span>
+                <span>Available for Opportunities</span>
+            </div>
+
+            <p class="hero-greeting">WELCOME TO MY PORTFOLIO</p>
+
+            <h1 class="hero-name">
+                Hi, I'm <span class="gradient-text">Mehedi Hasan Shanto</span>
+            </h1>
+
+            <div class="hero-role-wrapper">
+                <h2 class="hero-role">
+                    <span class="typewriter-text">CSE Undergraduate | Aspiring Software Engineer</span>
+                </h2>
+            </div>
+
+            <p class="hero-bio">
+                Passionate about software development, problem solving, and building practical applications. I enjoy turning ideas into reliable, user-focused software while continuously improving my programming and technical skills.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fa-solid fa-layer-group"></i> View My Work
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fa-solid fa-paper-plane"></i> Contact Me
+                </a>
+            </div>
+
+            <div class="hero-social-strip">
+                <span class="social-label">Find me on:</span>
+                <div class="social-links-row">
+                    <a href="https://github.com/MH-Shanto56" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="GitHub Profile">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shantoahmed56/" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.facebook.com/shanto.ahmed.44" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Facebook Profile">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="mailto:shantoahammed44@gmail.com" class="social-pill" aria-label="Email Me">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="avatar-orbit-box">
+                <!-- Rotating animated rings -->
+                <div class="orbit-ring-outer"></div>
+                <div class="orbit-ring-inner"></div>
+
+                <!-- Central Profile Badge -->
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img src="images/profile.jpg" alt="Mehedi Hasan Shanto - CSE Student & Software Engineer" class="hero-profile-img">
+                    </div>
+                </div>
+
+                <!-- Pure CSS Floating Tech Badges -->
+                <div class="tech-badge badge-cpp" title="C++">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                </div>
+                <div class="tech-badge badge-java" title="Java">
+                    <i class="devicon-java-plain colored"></i>
+                </div>
+                <div class="tech-badge badge-python" title="Python">
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="tech-badge badge-html" title="HTML5 & CSS3">
+                    <i class="devicon-html5-plain colored"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about" class="section">
+        <div class="section-title">
+            <span class="section-tag">GET TO KNOW ME</span>
+            <h2>About <span class="gradient-text">Me</span></h2>
+            <div class="title-bar"></div>
+        </div>
+
+        <div class="about-grid">
+            <!-- Left Profile Card -->
+            <div class="about-card-left">
+                <div class="about-glass-box">
+                    <div class="about-avatar-wrapper">
+                        <img src="images/profile.jpg" alt="Mehedi Hasan Shanto" class="about-avatar-img">
+                        <span class="avatar-status-badge" title="Available for Opportunities">
+                            <i class="fa-solid fa-check"></i>
+                        </span>
+                    </div>
+                    <h3>Mehedi Hasan Shanto</h3>
+                    <p class="about-dept">Computer Science &amp; Engineering</p>
+                    
+                    <div class="uni-badge">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>University of Asia Pacific</span>
+                    </div>
+
+                    <div class="stats-mini-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Featured Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Skills</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">B.Sc</span>
+                            <span class="stat-label">Undergraduate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="about-card-right">
+                <div class="bio-tag">
+                    <i class="fa-solid fa-terminal"></i> Student &amp; Developer
+                </div>
+                
+                <h3 class="about-main-heading">
+                    Driven by Curiosity &amp; Passion for Software
+                </h3>
+
+                <p class="about-paragraph">
+                    I am an undergraduate student in the Department of Computer Science and Engineering at the <strong>University of Asia Pacific</strong>. passionate about software development and problem solving.
+                </p>
+
+                <p class="about-paragraph">
+                    I enjoy writing clean and maintainable code, developing practical applications, and understanding how software systems work from the ground up. My technical foundation includes <strong>Object-Oriented Programming (OOP)</strong>, <strong>Python</strong>, <strong>Java</strong>, <strong>C++</strong>, <strong>SQL</strong> and <strong>Web Technologies</strong>.
+                </p>
+
+                <p class="about-paragraph">
+                    I am continuously working to improve my programming and software development skills through academic projects, personal projects, and hands-on learning that solve real-world problems.
+                </p>
+
+                <!-- Details Grid -->
+                <div class="details-table-grid">
+                    <div class="detail-cell">
+                        <div class="detail-icon"><i class="fa-regular fa-user"></i></div>
+                        <div>
+                            <span class="detail-name">Full Name</span>
+                            <span class="detail-value">Mehedi Hasan Shanto</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-cell">
+                        <div class="detail-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <div>
+                            <span class="detail-name">Department</span>
+                            <span class="detail-value">CSE (UAP)</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-cell">
+                        <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <span class="detail-name">Location</span>
+                            <span class="detail-value">Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-cell">
+                        <div class="detail-icon"><i class="fa-regular fa-envelope"></i></div>
+                        <div>
+                            <span class="detail-name">Email</span>
+                            <span class="detail-value">shantoahammed44@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-cta-bar">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                    </a>
+                    <a href="#skills" class="btn btn-secondary">
+                        <i class="fa-solid fa-arrow-down"></i> Explore Skills
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section id="skills" class="section section-dark">
+        <div class="section-title">
+            <span class="section-tag">WHAT I KNOW</span>
+            <h2>Technical <span class="gradient-text">Skills</span></h2>
+            <div class="title-bar"></div>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-c-plain colored"></i>
+                </div>
+                <h3>C</h3>
+                <p>Structured Programming &amp; Logic</p>
+                <span class="skill-category-badge">Core Language</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                </div>
+                <h3>C++</h3>
+                <p>OOP Concepts, STL &amp; Problem Solving</p>
+                <span class="skill-category-badge">Core Language</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-java-plain colored"></i>
+                </div>
+                <h3>Java</h3>
+                <p>OOP, Classes &amp; Application Development</p>
+                <span class="skill-category-badge">Object-Oriented</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <h3>Python</h3>
+                <p>Scripting &amp; Algorithmic Thinking</p>
+                <span class="skill-category-badge">Programming</span>
+            </div>
+
+            <!-- NumPy -->
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-numpy-plain colored"></i>
+                </div>
+                <h3>NumPy</h3>
+                <p>N-dimensional Arrays &amp; Numerical Operations</p>
+                <span class="skill-category-badge">Data Science</span>
+            </div>
+
+            <!-- Pandas -->
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-pandas-plain colored"></i>
+                </div>
+                <h3>Pandas</h3>
+                <p>DataFrames, Data Cleaning &amp; Analysis</p>
+                <span class="skill-category-badge">Data Science</span>
+            </div>
+
+            <!-- Matplotlib -->
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-matplotlib-plain colored"></i>
+                </div>
+                <h3>Matplotlib</h3>
+                <p>Data Visualization, Plotting &amp; Statistical Charts</p>
+                <span class="skill-category-badge">Visualization</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-html5-plain colored"></i>
+                </div>
+                <h3>HTML5</h3>
+                <p>Semantic Structure &amp; Clean Markup</p>
+                <span class="skill-category-badge">Frontend</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-css3-plain colored"></i>
+                </div>
+                <h3>CSS3</h3>
+                <p>Modern Layouts, Flexbox, Grid &amp; Design</p>
+                <span class="skill-category-badge">Frontend</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+                <h3>SQL / MySQL</h3>
+                <p>Database Design, Queries &amp; Management</p>
+                <span class="skill-category-badge">Database</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon-circle">
+                    <i class="devicon-git-plain colored"></i>
+                </div>
+                <h3>Git &amp; GitHub</h3>
+                <p>Version Control &amp; Code Repository</p>
+                <span class="skill-category-badge">Version Control</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= EDUCATION SECTION ================= -->
+    <section id="education" class="section">
+        <div class="section-title">
+            <span class="section-tag">MY ACADEMIC JOURNEY</span>
+            <h2>My <span class="gradient-text">Education</span></h2>
+            <div class="title-bar"></div>
+        </div>
+
+        <div class="timeline-container">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="timeline-date-badge">
+                            <i class="fa-regular fa-calendar-check"></i>
+                            <span>2024 - Present</span>
+                        </div>
+                        <span class="status-tag status-ongoing">Ongoing</span>
+                    </div>
+
+                    <h3 class="timeline-degree">B.Sc. in Computer Science &amp; Engineering</h3>
+                    <h4 class="timeline-institute">
+                        <i class="fa-solid fa-graduation-cap"></i> University of Asia Pacific (UAP)
+                    </h4>
+                    <p class="timeline-desc">
+                        Undergraduate studies in core computer science disciplines including Data Structures &amp; Algorithms, Object Oriented Programming (Java/C++), Database Systems, Computer Architecture, and Software Engineering.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="timeline-date-badge">
+                            <i class="fa-regular fa-calendar-check"></i>
+                            <span>2022</span>
+                        </div>
+                        <span class="status-tag status-completed">Completed</span>
+                    </div>
+
+                    <h3 class="timeline-degree">Higher Secondary Certificate (HSC)</h3>
+                    <h4 class="timeline-institute">
+                        <i class="fa-solid fa-school"></i> Khilgaon Government High School (Science)
+                    </h4>
+                    <p class="timeline-desc">
+                        Completed higher secondary certificate examination with major concentrations in Physics, Chemistry, Higher Mathematics, and Information &amp; Communication Technology.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="timeline-date-badge">
+                            <i class="fa-regular fa-calendar-check"></i>
+                            <span>2020</span>
+                        </div>
+                        <span class="status-tag status-completed">Completed</span>
+                    </div>
+
+                    <h3 class="timeline-degree">Secondary School Certificate (SSC)</h3>
+                    <h4 class="timeline-institute">
+                        <i class="fa-solid fa-school-flag"></i> Khilgaon Government High School (Science)
+                    </h4>
+                    <p class="timeline-desc">
+                        Graduated secondary school certificate examination with strong foundations in science and mathematics, developing early interests in computing and logical problem solving.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section id="projects" class="section section-dark">
+        <div class="section-title">
+            <span class="section-tag">MY RECENT WORK</span>
+            <h2>Featured <span class="gradient-text">Projects</span></h2>
+            <div class="title-bar"></div>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 (Hospital Management System) -->
+            <div class="project-card">
+                <div class="project-header-banner">
+                    <img src="images/hms-diagram.png" alt="Hospital Management System (HMS) Architecture Diagram" class="project-img">
+                    <div class="project-img-overlay"></div>
+                    <span class="project-type-pill">Management System</span>
+                </div>
+
+                <div class="project-body">
+                    <span class="project-index">PROJECT 01</span>
+                    <h3 class="project-title">Hospital Management System (HMS)</h3>
+                    <p class="project-description">
+                        A modular healthcare system designed to manage appointments, OPD/IPD admissions, doctor monitoring, laboratory tests, pharmacy records, and financial accounting.
+                    </p>
+
+                    <div class="project-tech-tags">
+                        <span><i class="devicon-java-plain"></i> Java</span>
+                        <span><i class="devicon-mysql-plain"></i> SQL</span>
+                        <span><i class="devicon-html5-plain"></i> HTML</span>
+                        <span><i class="devicon-css3-plain"></i> CSS</span>
+                    </div>
+
+                    <div class="project-links-row">
+                        <a href="https://github.com/MH-Shanto56" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href="#contact" class="project-link-btn project-link-demo">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 (Student Course Enrollment) -->
+            <div class="project-card">
+                <div class="project-header-banner">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=80" alt="Student Course Enrollment System" class="project-img">
+                    <div class="project-img-overlay"></div>
+                    <span class="project-type-pill">Academic System</span>
+                </div>
+
+                <div class="project-body">
+                    <span class="project-index">PROJECT 02</span>
+                    <h3 class="project-title">Student Course Enrollment</h3>
+                    <p class="project-description">
+                        An Object-Oriented Java application that automates student course registration, prerequisite checks, department credit calculations, and enrollment logs.
+                    </p>
+
+                    <div class="project-tech-tags">
+                        <span><i class="devicon-java-plain"></i> Java</span>
+                        <span><i class="fa-solid fa-cubes"></i> OOP</span>
+                        <span><i class="fa-solid fa-database"></i> File I/O</span>
+                    </div>
+
+                    <div class="project-links-row">
+                        <a href="https://github.com/MH-Shanto56" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href="#contact" class="project-link-btn project-link-demo">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 (Portfolio Website) -->
+            <div class="project-card">
+                <div class="project-header-banner">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80" alt="Personal Portfolio Website" class="project-img">
+                    <div class="project-img-overlay"></div>
+                    <span class="project-type-pill">Web Application</span>
+                </div>
+
+                <div class="project-body">
+                    <span class="project-index">PROJECT 03</span>
+                    <h3 class="project-title">Personal Portfolio Website</h3>
+                    <p class="project-description">
+                        A modern, fully responsive personal portfolio designed with pure HTML and CSS, featuring sleek dark theme aesthetics, CSS hamburger menu, and micro-interactions.
+                    </p>
+
+                    <div class="project-tech-tags">
+                        <span><i class="devicon-html5-plain"></i> HTML5</span>
+                        <span><i class="devicon-css3-plain"></i> CSS3</span>
+                        <span><i class="fa-solid fa-mobile-screen-button"></i> Responsive</span>
+                    </div>
+
+                    <div class="project-links-row">
+                        <a href="https://github.com/MH-Shanto56" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href="#home" class="project-link-btn project-link-demo">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact" class="section section-dark">
+        <div class="section-title">
+            <span class="section-tag">GET IN TOUCH</span>
+            <h2>Contact <span class="gradient-text">Me</span></h2>
+            <div class="title-bar"></div>
+        </div>
+
+        <div class="contact-grid">
+
+            <!-- Contact Information -->
+            <div class="contact-info-panel">
+                <div class="contact-header-text">
+                    <h3>Let's Connect &amp; Collaborate</h3>
+                    <p>
+                        Have a question, feedback, or a project in mind? Feel free to reach out directly through the channels below.
+                    </p>
+                </div>
+
+                <div class="contact-cards-list">
+                    <div class="contact-card-item">
+                        <div class="contact-card-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="contact-card-label">Email</span>
+                            <a href="mailto:shantoahammed44@gmail.com" class="contact-card-value">shantoahammed44@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-item">
+                        <div class="contact-card-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <span class="contact-card-label">Phone</span>
+                            <a href="tel:+8801950157162" class="contact-card-value">+880 1950-157162</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-item">
+                        <div class="contact-card-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span class="contact-card-label">Location</span>
+                            <span class="contact-card-value">Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-socials-group">
+                    <span class="socials-heading">Social Profiles</span>
+                    <div class="social-btn-row">
+                        <a href="https://github.com/MH-Shanto56" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shantoahmed56/" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.facebook.com/shanto.ahmed.44" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form (HTML5 Pure Form) -->
+            <div class="contact-form-panel">
+                <form action="mailto:shantoahammed44@gmail.com" method="POST" enctype="text/plain" class="modern-form">
+                    <div class="form-row-dual">
+                        <div class="form-field">
+                            <label for="name">Your Name <span class="required">*</span></label>
+                            <div class="field-container">
+                                <i class="fa-regular fa-user field-icon"></i>
+                                <input type="text" id="name" name="name" placeholder="Mehedi Hasan Shanto" required>
+                            </div>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Your Email <span class="required">*</span></label>
+                            <div class="field-container">
+                                <i class="fa-regular fa-envelope field-icon"></i>
+                                <input type="email" id="email" name="email" placeholder="shantoahammed44@gmail.com" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="subject">Subject</label>
+                        <div class="field-container">
+                            <i class="fa-regular fa-bookmark field-icon"></i>
+                            <input type="text" id="subject" name="subject" placeholder="Project Discussion / Collaboration">
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="message">Your Message <span class="required">*</span></label>
+                        <div class="field-container textarea-container">
+                            <i class="fa-regular fa-comment-dots field-icon"></i>
+                            <textarea id="message" name="message" rows="5" placeholder="Hi Mehedi, I'd like to get in touch regarding..." required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-full-btn">
+                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>Mehedi<span class="logo-bracket">/&gt;</span>
+                </a>
+                <p class="footer-subtext">
+                    CSE Student &amp; Aspiring Software Engineer | University of Asia Pacific
+                </p>
+            </div>
+
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#interests">Interests</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-social-links">
+                <a href="https://github.com/MH-Shanto56" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shantoahmed56/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/shanto.ahmed.44" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="mailto:shantoahammed44@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Mehedi Hasan Shanto. Crafted with pure HTML &amp; CSS.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ================= PURE CSS BACK TO TOP BUTTON ================= -->
+    <a href="#home" class="back-to-top-btn" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+</body>
+
+</html>
